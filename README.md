@@ -1,5 +1,5 @@
 
-Certainly! Here's an example of a README.md file tailored for your project, "eigenlayer-don". You can customize it further based on the specific details and features of your project.
+
 
 eigenlayer-don
 About
