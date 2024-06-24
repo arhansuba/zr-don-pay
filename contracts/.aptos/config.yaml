@@ -1,0 +1,8 @@
+---
+profiles:
+  default:
+    private_key: "0x4ed923b0d36c21dd22931ed46f161de88f6e2fd9e39d4c6a73a41ab8a774777a"
+    public_key: "0x973f1cba9e67eefd21750b2eadd740ea283fbd8951b4ca0c5e162d0f77f8de2d"
+    account: 4027cd32ff45a093cd91e0b514f0d6c85f98506ed55db8747a26963eb06778a9
+    rest_url: "https://devnet.m1.movementlabs.xyz"
+    faucet_url: "https://devnet.m1.movementlabs.xyz"
