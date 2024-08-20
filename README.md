@@ -1,31 +1,37 @@
-Decentralized Oracle Network (DON) Project
-Project Concept
-The Decentralized Oracle Network (DON) aims to provide secure, reliable, and tamper-proof data feeds for smart contracts on Ethereum and other blockchains. Leveraging EigenLayer's restaking capabilities and Movement Labs' SDK, DON enhances security and facilitates seamless integration.
-
-Overview
-DON ensures data accuracy through distributed validation, aggregates data using consensus mechanisms, and secures the network through restaking mechanisms and slashing conditions for validators.
-
-Key Features
-Distributed Validation
-Validators verify data from multiple sources to ensure accuracy.
-Consensus mechanisms finalize validated data for use in smart contracts.
-Restaking for Security
-Validators restake tokens to participate in the network, enhancing security.
-Slashing conditions deter malicious or faulty validators, maintaining network integrity.
-Integration with Movement SDK
-Utilizes Movement Labs' SDK for seamless integration with Ethereum and Layer 2 solutions.
-Data Feeds
-Provides diverse data feeds including price feeds, weather data, sports scores, etc.
-Secure APIs for developers to access data feeds for smart contract applications.
-Project Structure
-Smart Contracts
-Manages data submission, validation, aggregation, and distribution.
-Implements restaking contracts for managing validator stakes and slashing conditions.
-Backend Services
-Collects data from multiple sources, validates it through the oracle network, and submits it to smart contracts.
-Coordinates validators and implements consensus mechanisms.
-Frontend Interface
-User-friendly interface for users to access data feeds.
-Validator tools for managing stakes and participation in data validation.
-Developer tools for integration with the oracle network.
 # zr-don-paymaster
+
+
+## Overview
+
+**`zr-don-pay`** is a comprehensive solution that integrates a decentralized oracle with zkSync Paymaster, leveraging advanced cross-chain functionalities and secure transaction management. The project aims to enhance the efficiency and security of cross-chain transactions by combining the power of Eigenlayer decentralized oracle with zkSync’s Paymaster for gasless transactions.
+
+## Vision
+
+The goal of **`zr-don-pay`** is to create a robust and secure system for managing cross-chain transactions and decentralized data feeds. By integrating the decentralized oracle capabilities of Eigenlayer with zkSync’s Paymaster, the project provides a seamless and gas-efficient solution for handling transactions and data across multiple blockchains.
+
+## BUIDL Description
+
+**`zr-don-pay`** provides the following features:
+- **Cross-Chain Token Transfers**: Securely lock and mint tokens across different blockchains using `ZrSignBridge`.
+- **Decentralized Oracles**: Utilize Eigenlayer’s decentralized oracle for reliable and secure data feeds.
+- **Gasless Transactions**: Leverage zkSync’s Paymaster to facilitate gasless transactions and optimize transaction costs.
+
+### Architecture
+
+- **TokenLocker**: Manages token locking on the source blockchain.
+- **TokenMinter**: Handles token minting on the target blockchain.
+- **ZrSignBridge**: Facilitates cross-chain transactions with secure signing.
+- **zkSync Paymaster**: Enables gasless transactions by covering gas fees.
+
+![Architecture Diagram](https://example.com/architecture-diagram.png)
+
+## Setup Instructions
+
+### Prerequisites
+
+- Node.js and npm
+- Truffle or Hardhat
+- Ethereum wallet (e.g., MetaMask)
+- Access to zkSync testnet or mainnet
+
+
